@@ -11,7 +11,7 @@ public class ShoppingCartTest extends BaseMethods {
         int quantity = 19;
         int disInPercent = 0;
         ChromeDriver browser = precondition();
-        registration(browser);
+        registrationAndLogin(browser);
         browser.findElement(By.name("q")).sendKeys(String.valueOf(quantity));
         browser.findElement(By.cssSelector("[value=Update]")).click();
         assertEquals(discountInPercent(browser), String.valueOf(disInPercent), "Incorrect discount in percent");
@@ -25,6 +25,7 @@ public class ShoppingCartTest extends BaseMethods {
         int quantity = 20;
         int disInPercent = 2;
         ChromeDriver browser = precondition();
+        registrationAndLogin(browser);
         browser.findElement(By.name("q")).sendKeys(String.valueOf(quantity));
         browser.findElement(By.cssSelector("[value=Update]")).click();
         assertEquals(discountInPercent(browser), String.valueOf(disInPercent), "Incorrect discount in percent");
@@ -37,6 +38,7 @@ public class ShoppingCartTest extends BaseMethods {
         int quantity = 21;
         int disInPercent = 2;
         ChromeDriver browser = precondition();
+        registrationAndLogin(browser);
         browser.findElement(By.name("q")).sendKeys(String.valueOf(quantity));
         browser.findElement(By.cssSelector("[value=Update]")).click();
         assertEquals(discountInPercent(browser), String.valueOf(disInPercent), "Incorrect discount in percent");
@@ -49,6 +51,7 @@ public class ShoppingCartTest extends BaseMethods {
         int quantity = 49;
         int disInPercent = 2;
         ChromeDriver browser = precondition();
+        registrationAndLogin(browser);
         browser.findElement(By.name("q")).sendKeys(String.valueOf(quantity));
         browser.findElement(By.cssSelector("[value=Update]")).click();
         assertEquals(discountInPercent(browser), String.valueOf(disInPercent), "Incorrect discount in percent");
@@ -61,6 +64,7 @@ public class ShoppingCartTest extends BaseMethods {
         int quantity = 50;
         int disInPercent = 3;
         ChromeDriver browser = precondition();
+        registrationAndLogin(browser);
         browser.findElement(By.name("q")).sendKeys(String.valueOf(quantity));
         browser.findElement(By.cssSelector("[value=Update]")).click();
         assertEquals(discountInPercent(browser), String.valueOf(disInPercent), "Incorrect discount in percent");
@@ -73,6 +77,7 @@ public class ShoppingCartTest extends BaseMethods {
         int quantity = 51;
         int disInPercent = 3;
         ChromeDriver browser = precondition();
+        registrationAndLogin(browser);
         browser.findElement(By.name("q")).sendKeys(String.valueOf(quantity));
         browser.findElement(By.cssSelector("[value=Update]")).click();
         assertEquals(discountInPercent(browser), String.valueOf(disInPercent), "Incorrect discount in percent");
@@ -85,6 +90,7 @@ public class ShoppingCartTest extends BaseMethods {
         int quantity = 98;
         int disInPercent = 3;
         ChromeDriver browser = precondition();
+        registrationAndLogin(browser);
         browser.findElement(By.name("q")).sendKeys(String.valueOf(quantity));
         browser.findElement(By.cssSelector("[value=Update]")).click();
         assertEquals(discountInPercent(browser), String.valueOf(disInPercent), "Incorrect discount in percent");
@@ -97,6 +103,7 @@ public class ShoppingCartTest extends BaseMethods {
         int quantity = 99;
         int disInPercent = 3;
         ChromeDriver browser = precondition();
+        registrationAndLogin(browser);
         browser.findElement(By.name("q")).sendKeys(String.valueOf(quantity));
         browser.findElement(By.cssSelector("[value=Update]")).click();
         assertEquals(discountInPercent(browser), String.valueOf(disInPercent), "Incorrect discount in percent");
@@ -109,6 +116,7 @@ public class ShoppingCartTest extends BaseMethods {
         int quantity = 100;
         int disInPercent = 4;
         ChromeDriver browser = precondition();
+        registrationAndLogin(browser);
         browser.findElement(By.name("q")).sendKeys(String.valueOf(quantity));
         browser.findElement(By.cssSelector("[value=Update]")).click();
         assertEquals(discountInPercent(browser), String.valueOf(disInPercent), "Incorrect discount in percent");
@@ -121,6 +129,7 @@ public class ShoppingCartTest extends BaseMethods {
         int quantity = 101;
         int disInPercent = 4;
         ChromeDriver browser = precondition();
+        registrationAndLogin(browser);
         browser.findElement(By.name("q")).sendKeys(String.valueOf(quantity));
         browser.findElement(By.cssSelector("[value=Update]")).click();
         assertEquals(discountInPercent(browser), String.valueOf(disInPercent), "Incorrect discount in percent");
@@ -133,6 +142,7 @@ public class ShoppingCartTest extends BaseMethods {
         int quantity = 498;
         int disInPercent = 4;
         ChromeDriver browser = precondition();
+        registrationAndLogin(browser);
         browser.findElement(By.name("q")).sendKeys(String.valueOf(quantity));
         browser.findElement(By.cssSelector("[value=Update]")).click();
         assertEquals(discountInPercent(browser), String.valueOf(disInPercent), "Incorrect discount in percent");
@@ -145,6 +155,7 @@ public class ShoppingCartTest extends BaseMethods {
         int quantity = 499;
         int disInPercent = 4;
         ChromeDriver browser = precondition();
+        registrationAndLogin(browser);
         browser.findElement(By.name("q")).sendKeys(String.valueOf(quantity));
         browser.findElement(By.cssSelector("[value=Update]")).click();
         assertEquals(discountInPercent(browser), String.valueOf(disInPercent), "Incorrect discount in percent");
@@ -157,6 +168,7 @@ public class ShoppingCartTest extends BaseMethods {
         int quantity = 500;
         int disInPercent = 5;
         ChromeDriver browser = precondition();
+        registrationAndLogin(browser);
         browser.findElement(By.name("q")).sendKeys(String.valueOf(quantity));
         browser.findElement(By.cssSelector("[value=Update]")).click();
         assertEquals(discountInPercent(browser), String.valueOf(disInPercent), "Incorrect discount in percent");
@@ -169,6 +181,7 @@ public class ShoppingCartTest extends BaseMethods {
         int quantity = 501;
         int disInPercent = 5;
         ChromeDriver browser = precondition();
+        registrationAndLogin(browser);
         browser.findElement(By.name("q")).sendKeys(String.valueOf(quantity));
         browser.findElement(By.cssSelector("[value=Update]")).click();
         assertEquals(discountInPercent(browser), String.valueOf(disInPercent), "Incorrect discount in percent");
@@ -181,6 +194,7 @@ public class ShoppingCartTest extends BaseMethods {
         int quantity = 998;
         int disInPercent = 5;
         ChromeDriver browser = precondition();
+        registrationAndLogin(browser);
         browser.findElement(By.name("q")).sendKeys(String.valueOf(quantity));
         browser.findElement(By.cssSelector("[value=Update]")).click();
         assertEquals(discountInPercent(browser), String.valueOf(disInPercent), "Incorrect discount in percent");
@@ -193,6 +207,7 @@ public class ShoppingCartTest extends BaseMethods {
         int quantity = 999;
         int disInPercent = 5;
         ChromeDriver browser = precondition();
+        registrationAndLogin(browser);
         browser.findElement(By.name("q")).sendKeys(String.valueOf(quantity));
         browser.findElement(By.cssSelector("[value=Update]")).click();
         assertEquals(discountInPercent(browser), String.valueOf(disInPercent), "Incorrect discount in percent");
@@ -205,6 +220,7 @@ public class ShoppingCartTest extends BaseMethods {
         int quantity = 1000;
         int disInPercent = 6;
         ChromeDriver browser = precondition();
+        registrationAndLogin(browser);
         browser.findElement(By.name("q")).sendKeys(String.valueOf(quantity));
         browser.findElement(By.cssSelector("[value=Update]")).click();
         assertEquals(discountInPercent(browser), String.valueOf(disInPercent), "Incorrect discount in percent");
@@ -217,6 +233,7 @@ public class ShoppingCartTest extends BaseMethods {
         int quantity = 1001;
         int disInPercent = 6;
         ChromeDriver browser = precondition();
+        registrationAndLogin(browser);
         browser.findElement(By.name("q")).sendKeys(String.valueOf(quantity));
         browser.findElement(By.cssSelector("[value=Update]")).click();
         assertEquals(discountInPercent(browser), String.valueOf(disInPercent), "Incorrect discount in percent");
@@ -229,6 +246,7 @@ public class ShoppingCartTest extends BaseMethods {
         int quantity = 4998;
         int disInPercent = 6;
         ChromeDriver browser = precondition();
+        registrationAndLogin(browser);
         browser.findElement(By.name("q")).sendKeys(String.valueOf(quantity));
         browser.findElement(By.cssSelector("[value=Update]")).click();
         assertEquals(discountInPercent(browser), String.valueOf(disInPercent), "Incorrect discount in percent");
@@ -241,6 +259,7 @@ public class ShoppingCartTest extends BaseMethods {
         int quantity = 4999;
         int disInPercent = 6;
         ChromeDriver browser = precondition();
+        registrationAndLogin(browser);
         browser.findElement(By.name("q")).sendKeys(String.valueOf(quantity));
         browser.findElement(By.cssSelector("[value=Update]")).click();
         assertEquals(discountInPercent(browser), String.valueOf(disInPercent), "Incorrect discount in percent");
@@ -253,6 +272,7 @@ public class ShoppingCartTest extends BaseMethods {
         int quantity = 5000;
         int disInPercent = 7;
         ChromeDriver browser = precondition();
+        registrationAndLogin(browser);
         browser.findElement(By.name("q")).sendKeys(String.valueOf(quantity));
         browser.findElement(By.cssSelector("[value=Update]")).click();
         assertEquals(discountInPercent(browser), String.valueOf(disInPercent), "Incorrect discount in percent");
@@ -265,6 +285,7 @@ public class ShoppingCartTest extends BaseMethods {
         int quantity = 5001;
         int disInPercent = 7;
         ChromeDriver browser = precondition();
+        registrationAndLogin(browser);
         browser.findElement(By.name("q")).sendKeys(String.valueOf(quantity));
         browser.findElement(By.cssSelector("[value=Update]")).click();
         assertEquals(discountInPercent(browser), String.valueOf(disInPercent), "Incorrect discount in percent");
@@ -277,6 +298,7 @@ public class ShoppingCartTest extends BaseMethods {
         int quantity = 9998;
         int disInPercent = 7;
         ChromeDriver browser = precondition();
+        registrationAndLogin(browser);
         browser.findElement(By.name("q")).sendKeys(String.valueOf(quantity));
         browser.findElement(By.cssSelector("[value=Update]")).click();
         assertEquals(discountInPercent(browser), String.valueOf(disInPercent), "Incorrect discount in percent");
@@ -289,6 +311,7 @@ public class ShoppingCartTest extends BaseMethods {
         int quantity = 9999;
         int disInPercent = 7;
         ChromeDriver browser = precondition();
+        registrationAndLogin(browser);
         browser.findElement(By.name("q")).sendKeys(String.valueOf(quantity));
         browser.findElement(By.cssSelector("[value=Update]")).click();
         assertEquals(discountInPercent(browser), String.valueOf(disInPercent), "Incorrect discount in percent");
@@ -313,6 +336,7 @@ public class ShoppingCartTest extends BaseMethods {
         int quantity = 10001;
         int disInPercent = 8;
         ChromeDriver browser = precondition();
+        registrationAndLogin(browser);
         browser.findElement(By.name("q")).sendKeys(String.valueOf(quantity));
         browser.findElement(By.cssSelector("[value=Update]")).click();
         assertEquals(discountInPercent(browser), String.valueOf(disInPercent), "Incorrect discount in percent");
