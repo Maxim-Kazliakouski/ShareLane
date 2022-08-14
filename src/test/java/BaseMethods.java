@@ -70,6 +70,7 @@ public class BaseMethods {
         }
 
         public void registrationAndLogin (ChromeDriver browser){
+            registration(browser);
             String gettingEmail = browser.findElement(By.xpath("//tbody/tr/td/b[1]")).getText();
             browser.get("https://www.sharelane.com/cgi-bin/main.py");
             browser.findElement(By.name("email")).sendKeys(gettingEmail);
