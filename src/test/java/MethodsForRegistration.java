@@ -67,43 +67,5 @@ public class MethodsForRegistration {
         browser.findElement(By.name("password2")).sendKeys("11111");
         browser.findElement(By.xpath("//tbody/tr[6]/td[2]/input[1]")).click();
     }
-//
-//    public void registrationAndLogin(ChromeDriver browser) {
-//        registration(browser);
-//        String gettingEmail = browser.findElement(By.xpath("//tbody/tr/td/b[1]")).getText();
-//        browser.get("https://www.sharelane.com/cgi-bin/main.py");
-//        browser.findElement(By.name("email")).sendKeys(gettingEmail);
-//        browser.findElement(By.name("password")).sendKeys("1111");
-//        browser.findElement(By.cssSelector("[value=Login]")).click();
-//        browser.get("https://www.sharelane.com/cgi-bin/add_to_cart.py?book_id=2");
-//        browser.get("https://www.sharelane.com/cgi-bin/shopping_cart.py");
-//        browser.findElement(By.name("q")).clear();
-//    }
-//
-//    public String discountInPercent(ChromeDriver browser) {
-//
-//        return browser.findElement(By.xpath("(//table[@cellpadding='3']//td[5])[2]")).getText();
-//
-//    }
-//
-//    public String discountInDollars(ChromeDriver browser) {
-//        return browser.findElement(By.xpath("(//table[@cellpadding='3']//td[6])[2]")).getText();
-//    }
-//
-//    public String totalSum(ChromeDriver browser) {
-//        return browser.findElement(By.xpath("(//table[@cellpadding='3']//td[7])[2]")).getText();
-//    }
-//
-//    public String calculateTotalSum(int amountOfBooks, int discount) {
-//        double calcTotalSum = (10.0 * amountOfBooks) - ((10.0 * amountOfBooks) * discount / 100);
-//        String newAround = String.format("%.2f", calcTotalSum);
-//        return newAround.replace(",", ".");
-//    }
-//
-//    public String calculateDiscountInDollars(int amountOfBooks, int discount) {
-//        double calcDiscount = (10.0 * amountOfBooks) * discount / 100;
-//        String newAround = String.format("%.1f", calcDiscount);
-//        return newAround.replace(",", ".");
-//    }
 
 }
